@@ -47,7 +47,7 @@ services:
     stdin_open: true
     tty: true
     networks:
-      - esp_network
+       - esp_network
 
 volumes:
   postgres_data:
